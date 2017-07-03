@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('Images/background_resize.jpg') no-repeat top center ;
+  background: url('Images/toronto2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -118,6 +118,24 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+ul.otherskills {
+  padding: 0;
+  text-align: center;
+}
+
+.otherskills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ffc0cb;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.otherskills li:nth-child(odd) {
+  background: #800080;
 }
 
 footer {
